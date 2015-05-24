@@ -73,3 +73,15 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+装饰模式/Decorate/Debug/Decorate.ilk
+*.lastbuildstate
+*.log
+*.tlog
+*.tlog
+*.manifest
+*.pdb
+*.res
+*.ilk
+*.idb
+*.rc
+装饰模式/Decorate/Decorate.opensdf
