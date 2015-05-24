@@ -23,6 +23,6 @@ void Finery::show()
 {
 	if(m_compent != NULL)
 	{
-		m_compent.show();
+		m_compent->show();
 	}
 }

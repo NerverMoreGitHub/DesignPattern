@@ -21,5 +21,5 @@ public:
 	virtual void show();
 protected:
 	Person *m_compent;
-}
+};
 #endif
