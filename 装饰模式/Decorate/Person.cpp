@@ -11,7 +11,7 @@ Person::Person(std::string strName)
 
 void Person::show()
 {
-	std::cout<<"穿的:"<<m_strName<<std::endl;
+	std::cout<<"装扮的"<<m_strName<<std::endl;
 }
 
 void Finery::Decorate(Person * compent)
@@ -26,3 +26,23 @@ void Finery::show()
 		m_compent->show();
 	}
 }
+
+void TShirt::show()
+{
+	std::cout<<"T-Shirt  ";
+	Finery::show();
+}
+
+void BigTrouser::show()
+{
+	std::cout<<"嘻哈裤  ";
+	Finery::show();
+}
+
+void Coat::show()
+{
+	std::cout<<"外套  ";
+	Finery::show();
+}
+
+
