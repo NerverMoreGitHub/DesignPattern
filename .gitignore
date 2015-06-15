@@ -90,3 +90,5 @@ $RECYCLE.BIN/
 装饰模式/Decorate/Decorate.suo
 *.ipch
 *.cache
+*.opensdf
+*.sdf
