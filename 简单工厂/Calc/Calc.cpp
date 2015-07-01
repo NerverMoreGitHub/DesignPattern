@@ -5,6 +5,7 @@
 #include <iostream>
 #include "Operation.h"
 
+void GetData(int * a);
 int _tmain(int argc, _TCHAR* argv[])
 {
 	std::cout<<"Calc"<<std::endl;
@@ -14,5 +15,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	op->setNumberA(1.0);
 	op->setNumberB(1.0);
 	std::cout<<op->GetResult()<<std::endl;
+
+	int * c = NULL;
+	GetData(c);
+	std::cout<<*c<<std::endl;
 	return 0;
+
+}
+
+void GetData(int * a)
+{
+	int b = 1;
+	a = &b;
 }

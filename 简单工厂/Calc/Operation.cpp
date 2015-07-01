@@ -90,6 +90,7 @@ Operation * OperationFactry::CreateOperation(std::string strOperation)
 	case EN_OPERATER_TYPE::EN_OPERATER_ADD:
 		{
 			op = new OperationAdd();
+			op->GetResult();
 		}
 		break;
 	case EN_OPERATER_TYPE::EN_OPERATER_SUB:
